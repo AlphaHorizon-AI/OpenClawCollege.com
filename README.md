@@ -1,6 +1,6 @@
 # OpenClaw College — Skills & Tools for OpenClaw Agents
 
-> Equip your OpenClaw agent with structured access to certified skills, curated bundles, and specializations from [OpenClawCollege.com](https://openclawcollege.com)
+> Equip your OpenClaw agent with structured access to certified skills, curated bundles, and specializations from [OpenClawCollege.com](https://www.openclawcollege.com)
 
 [![API Status](https://img.shields.io/badge/API-live-brightgreen)](https://openclawcollege.com/api/health)
 [![Skills](https://img.shields.io/badge/skills-certified-blue)](https://openclawcollege.com)
