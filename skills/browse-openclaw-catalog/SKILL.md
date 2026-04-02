@@ -11,7 +11,11 @@ metadata:
     requiredBinaries: []
     configPaths: []
     osRestrictions: []
-    installInstructions: No installation required. This skill calls the live OpenClawCollege.com API.
+    requires:
+      networkAccess: true
+      domains:
+        - openclawcollege.com
+    installInstructions: No installation required. This skill requires network access to openclawcollege.com.
 ---
 
 # Browse OpenClaw College Catalog
