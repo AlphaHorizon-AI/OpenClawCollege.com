@@ -11,16 +11,23 @@ metadata:
     requiredBinaries: []
     configPaths: []
     osRestrictions: []
-    requires:
-      networkAccess: true
-      domains:
-        - openclawcollege.com
+    permissions:
+      network: true
+    notes:
+      - Requires outbound HTTPS access to openclawcollege.com
+      - Requires an HTTP-capable tool in the agent runtime
     installInstructions: No installation required. This skill requires network access to openclawcollege.com.
 ---
 
 # Browse OpenClaw College Catalog
 
 You have access to the OpenClaw College catalog at `https://openclawcollege.com`. Use it to discover certified skills, curated bundles, badges, and platform statistics.
+
+## Requirements
+
+- An HTTP-capable tool must be available in the agent runtime
+- Outbound network access to `https://openclawcollege.com` must be permitted by the operator
+- This skill provides instructions, not a built-in transport layer
 
 ## Available Endpoints
 

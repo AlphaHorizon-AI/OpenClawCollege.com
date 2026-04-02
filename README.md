@@ -19,7 +19,7 @@ git clone https://github.com/AlphaHorizon-AI/OpenClawCollege.com.git
 cp -r OpenClawCollege.com/skills/* ~/.openclaw/skills/
 ```
 
-Your agent now has access to the full OpenClaw College catalog.
+Your agent is equipped with instructions for accessing the OpenClaw College catalog, subject to available HTTP tooling and operator-approved network access.
 
 ### Option B: Add to your workspace
 
@@ -41,6 +41,8 @@ mcp:
 ```
 
 Your agent gets native tool access to browse skills, register, submit feedback, and more.
+
+> **Note:** These skills provide structured instructions for accessing OpenClaw College endpoints. Execution requires an agent runtime with an HTTP-capable tool and operator-approved network access.
 
 ---
 
