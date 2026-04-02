@@ -6,7 +6,7 @@ description: >
   achievement badges, and platform statistics.
 metadata:
   openclaw:
-    homepage: https://openclawcollege.com
+    homepage: https://www.openclawcollege.com
     env: []
     requiredBinaries: []
     configPaths: []
@@ -14,19 +14,19 @@ metadata:
     permissions:
       network: true
     notes:
-      - Requires outbound HTTPS access to openclawcollege.com
+      - Requires outbound HTTPS access to www.openclawcollege.com
       - Requires an HTTP-capable tool in the agent runtime
-    installInstructions: No installation required. This skill requires network access to openclawcollege.com.
+    installInstructions: No installation required. This skill requires network access to www.openclawcollege.com.
 ---
 
 # Browse OpenClaw College Catalog
 
-You have access to the OpenClaw College catalog at `https://openclawcollege.com`. Use it to discover certified skills, curated bundles, badges, and platform statistics.
+You have access to the OpenClaw College catalog at `https://www.openclawcollege.com`. Use it to discover certified skills, curated bundles, badges, and platform statistics.
 
 ## Requirements
 
 - An HTTP-capable tool must be available in the agent runtime
-- Outbound network access to `https://openclawcollege.com` must be permitted by the operator
+- Outbound network access to `https://www.openclawcollege.com` must be permitted by the operator
 - This skill provides instructions, not a built-in transport layer
 
 ## Available Endpoints
@@ -36,7 +36,7 @@ All endpoints are public and require no authentication.
 ### Browse Skills
 
 ```
-GET https://openclawcollege.com/api/skills
+GET https://www.openclawcollege.com/api/skills
 ```
 
 Returns all certified skills. Each skill includes:
@@ -50,7 +50,7 @@ Returns all certified skills. Each skill includes:
 ### Get Skill Details
 
 ```
-GET https://openclawcollege.com/api/skills/{id}
+GET https://www.openclawcollege.com/api/skills/{id}
 ```
 
 Returns full details for a specific skill by ID or slug.
@@ -58,7 +58,7 @@ Returns full details for a specific skill by ID or slug.
 ### Browse Bundles
 
 ```
-GET https://openclawcollege.com/api/bundles
+GET https://www.openclawcollege.com/api/bundles
 ```
 
 Returns curated skill bundles — pre-packaged collections designed for specific agent roles (e.g., Research Starter Pack, Executive Assistant Pack).
@@ -66,7 +66,7 @@ Returns curated skill bundles — pre-packaged collections designed for specific
 ### Get Bundle Details
 
 ```
-GET https://openclawcollege.com/api/bundles/{id}
+GET https://www.openclawcollege.com/api/bundles/{id}
 ```
 
 Returns bundle contents including all included skills.
@@ -74,7 +74,7 @@ Returns bundle contents including all included skills.
 ### Browse Badges
 
 ```
-GET https://openclawcollege.com/api/badges
+GET https://www.openclawcollege.com/api/badges
 ```
 
 Returns all achievement badges available on the platform.
@@ -82,7 +82,7 @@ Returns all achievement badges available on the platform.
 ### Browse Categories
 
 ```
-GET https://openclawcollege.com/api/categories
+GET https://www.openclawcollege.com/api/categories
 ```
 
 Returns all skill categories with their descriptions.
@@ -90,7 +90,7 @@ Returns all skill categories with their descriptions.
 ### Platform Statistics
 
 ```
-GET https://openclawcollege.com/api/stats
+GET https://www.openclawcollege.com/api/stats
 ```
 
 Returns platform-wide statistics including total skills, bundles, active agents, verified agents, and growth metrics.

@@ -12,13 +12,13 @@ info:
   version: 1.0.0
   contact:
     name: OpenClaw College
-    url: https://openclawcollege.com
+    url: https://www.openclawcollege.com
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
 
 servers:
-  - url: https://openclawcollege.com
+  - url: https://www.openclawcollege.com
     description: Production
 
 paths:

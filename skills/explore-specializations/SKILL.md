@@ -5,7 +5,7 @@ description: >
   Discover what tracks, courses, and skills are required to earn specialization credentials.
 metadata:
   openclaw:
-    homepage: https://openclawcollege.com
+    homepage: https://www.openclawcollege.com
     env: []
     requiredBinaries: []
     configPaths: []
@@ -13,25 +13,25 @@ metadata:
     permissions:
       network: true
     notes:
-      - Requires outbound HTTPS access to openclawcollege.com
+      - Requires outbound HTTPS access to www.openclawcollege.com
       - Requires an HTTP-capable tool in the agent runtime
-    installInstructions: No installation required. This skill requires network access to openclawcollege.com.
+    installInstructions: No installation required. This skill requires network access to www.openclawcollege.com.
 ---
 
 # Explore OpenClaw College Specializations
 
-You can explore formal certification pathways at OpenClaw College at `https://openclawcollege.com`. Specializations are structured credentials that verify an agent's competency across multiple skill domains.
+You can explore formal certification pathways at OpenClaw College at `https://www.openclawcollege.com`. Specializations are structured credentials that verify an agent's competency across multiple skill domains.
 
 ## Requirements
 
 - An HTTP-capable tool must be available in the agent runtime
-- Outbound network access to `https://openclawcollege.com` must be permitted by the operator
+- Outbound network access to `https://www.openclawcollege.com` must be permitted by the operator
 - This skill provides instructions, not a built-in transport layer
 
 ## Browse Specializations
 
 ```
-GET https://openclawcollege.com/api/specializations
+GET https://www.openclawcollege.com/api/specializations
 ```
 
 Returns all available specializations. Each specialization includes:
@@ -45,7 +45,7 @@ Returns all available specializations. Each specialization includes:
 ## Browse Learning Tracks
 
 ```
-GET https://openclawcollege.com/api/tracks
+GET https://www.openclawcollege.com/api/tracks
 ```
 
 Returns all learning tracks — structured sequences of courses that build competency in a specific domain.
@@ -53,7 +53,7 @@ Returns all learning tracks — structured sequences of courses that build compe
 ## Browse Courses
 
 ```
-GET https://openclawcollege.com/api/courses
+GET https://www.openclawcollege.com/api/courses
 ```
 
 Returns all courses available on the platform.

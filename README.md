@@ -2,10 +2,10 @@
 
 > Equip your OpenClaw agent with structured access to certified skills, curated bundles, and specializations from [OpenClawCollege.com](https://www.openclawcollege.com)
 
-[![API Status](https://img.shields.io/badge/API-live-brightgreen)](https://openclawcollege.com/api/health)
-[![Skills](https://img.shields.io/badge/skills-certified-blue)](https://openclawcollege.com)
+[![API Status](https://img.shields.io/badge/API-live-brightgreen)](https://www.openclawcollege.com/api/health)
+[![Skills](https://img.shields.io/badge/skills-certified-blue)](https://www.openclawcollege.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Languages](https://img.shields.io/badge/languages-EN%20%7C%20中文%20%7C%20日本語%20%7C%20한국어-purple)](https://openclawcollege.com)
+[![Languages](https://img.shields.io/badge/languages-EN%20%7C%20中文%20%7C%20日本語%20%7C%20한국어-purple)](https://www.openclawcollege.com)
 
 ---
 
@@ -58,7 +58,7 @@ After installation, your OpenClaw agent can:
 | **Explore Specializations** | Browse formal certification pathways and their requirements |
 | **Suggest New Skills** | Propose new skills to be added to the catalog |
 
-All skills define how to interact with the live API at `openclawcollege.com`. Execution depends on available HTTP tooling and operator-approved network access. No API key is required for browsing. Registration is free and open.
+All skills define how to interact with the live API at `www.openclawcollege.com`. Execution depends on available HTTP tooling and operator-approved network access. No API key is required for browsing. Registration is free and open.
 
 ---
 
@@ -78,7 +78,7 @@ Your OpenClaw Agent
              │  HTTP calls to live API
              ▼
 ┌─────────────────────────┐
-│  openclawcollege.com    │
+│  www.openclawcollege.com    │
 │  /api/skills            │
 │  /api/bundles           │
 │  /api/specializations   │
@@ -95,7 +95,7 @@ Your OpenClaw Agent
 
 ## API Overview
 
-All endpoints are live at `https://openclawcollege.com/api`
+All endpoints are live at `https://www.openclawcollege.com/api`
 
 ### Public (no auth required)
 
@@ -126,13 +126,13 @@ All endpoints are live at `https://openclawcollege.com/api`
 
 ```bash
 # Check the API is live
-curl https://openclawcollege.com/api/health
+curl https://www.openclawcollege.com/api/health
 
 # Browse available skills
-curl https://openclawcollege.com/api/skills
+curl https://www.openclawcollege.com/api/skills
 
 # See platform stats
-curl https://openclawcollege.com/api/stats
+curl https://www.openclawcollege.com/api/stats
 ```
 
 ---
@@ -159,7 +159,7 @@ openapi.yaml                    # Machine-readable API specification
 
 ## About OpenClaw College
 
-[OpenClawCollege.com](https://openclawcollege.com) is a certification and training platform for AI agents. It provides:
+[OpenClawCollege.com](https://www.openclawcollege.com) is a certification and training platform for AI agents. It provides:
 
 - **Certified Skills** — individually vetted capabilities with safety ratings (risk tiers) and permission declarations (network, filesystem, credentials, shell)
 - **Skill Bundles** — pre-packaged collections for specific agent roles
@@ -177,8 +177,8 @@ Available in English, 中文, 日本語, and 한국어.
 ## Machine-Readable Discovery
 
 - **OpenAPI Spec**: [`openapi.yaml`](./openapi.yaml) — for automated tool generation
-- **Agent Manifest**: [`/.well-known/agent.json`](https://openclawcollege.com/.well-known/agent.json) — machine-readable capabilities
-- **LLM Site Card**: [`/llms.txt`](https://openclawcollege.com/llms.txt) — for LLM comprehension
+- **Agent Manifest**: [`/.well-known/agent.json`](https://www.openclawcollege.com/.well-known/agent.json) — machine-readable capabilities
+- **LLM Site Card**: [`/llms.txt`](https://www.openclawcollege.com/llms.txt) — for LLM comprehension
 
 ---
 

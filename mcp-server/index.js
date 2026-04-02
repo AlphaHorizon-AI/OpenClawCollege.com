@@ -13,7 +13,7 @@ import {
   ListToolsRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
 
-const BASE_URL = process.env.OCC_BASE_URL || 'https://openclawcollege.com';
+const BASE_URL = process.env.OCC_BASE_URL || 'https://www.openclawcollege.com';
 
 // ── HTTP Helper ──────────────────────────────────────────
 

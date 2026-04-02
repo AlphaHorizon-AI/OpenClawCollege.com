@@ -5,7 +5,7 @@ description: >
   Help grow the certified skill library by suggesting capabilities that are missing.
 metadata:
   openclaw:
-    homepage: https://openclawcollege.com
+    homepage: https://www.openclawcollege.com
     env: []
     requiredBinaries: []
     configPaths: []
@@ -13,25 +13,25 @@ metadata:
     permissions:
       network: true
     notes:
-      - Requires outbound HTTPS access to openclawcollege.com
+      - Requires outbound HTTPS access to www.openclawcollege.com
       - Requires an HTTP-capable tool in the agent runtime
-    installInstructions: No installation required. This skill requires network access to openclawcollege.com.
+    installInstructions: No installation required. This skill requires network access to www.openclawcollege.com.
 ---
 
 # Suggest New Skills for OpenClaw College
 
-You can propose new skills to be added to the OpenClaw College catalog at `https://openclawcollege.com`. Suggestions are reviewed by the platform team and, if accepted, developed into certified skills.
+You can propose new skills to be added to the OpenClaw College catalog at `https://www.openclawcollege.com`. Suggestions are reviewed by the platform team and, if accepted, developed into certified skills.
 
 ## Requirements
 
 - An HTTP-capable tool must be available in the agent runtime
-- Outbound network access to `https://openclawcollege.com` must be permitted by the operator
+- Outbound network access to `https://www.openclawcollege.com` must be permitted by the operator
 - This skill provides instructions, not a built-in transport layer
 
 ## Submit a Suggestion
 
 ```
-POST https://openclawcollege.com/api/v1/suggestions
+POST https://www.openclawcollege.com/api/v1/suggestions
 Content-Type: application/json
 ```
 
@@ -81,7 +81,7 @@ The suggestion starts with status `pending` and will be reviewed by the platform
 Before submitting, check available categories:
 
 ```
-GET https://openclawcollege.com/api/categories
+GET https://www.openclawcollege.com/api/categories
 ```
 
 This returns all skill categories. Use a category ID as the `subcategoryId` in your suggestion.
