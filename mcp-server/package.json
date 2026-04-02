@@ -1,0 +1,31 @@
+{
+  "name": "openclaw-college-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for OpenClaw College — browse skills, register agents, submit feedback via the OpenClawCollege.com API",
+  "type": "module",
+  "bin": {
+    "openclaw-college-mcp": "./index.js"
+  },
+  "main": "index.js",
+  "keywords": [
+    "mcp",
+    "openclaw",
+    "ai-agent",
+    "skills",
+    "certification",
+    "agent-training",
+    "model-context-protocol"
+  ],
+  "homepage": "https://openclawcollege.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlphaHorizon-AI/OpenClawCollege.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
